@@ -1,4 +1,5 @@
 import { useState } from 'react'
+
 import styles from './App.module.css'
 import poweredimage from './assets/powered.png'
 import leftArrowimage from './assets/leftarrow.png'
@@ -14,6 +15,7 @@ const App = () => {
   const handleCalculateButton = () => {
     if(heightField && weightField) {
       setToShow(calculateImc(heightField, weightField))
+      console.log('TO SHOW: ' + toShow)
     } else {
       alert('Digite todos os campos.')
     }

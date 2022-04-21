@@ -1,42 +1,46 @@
-<h1 align="center">
-    IMC
+<h1 align="center"> 
+    <img  width="150" src="src/assets/powered.png" />
+    <br>
+    BMI Calculator
 </h1>
 
-## 📃 Sobre
+<h4 align="center">
+    BMI Calculator made in React and TypeScript
+</h4>
 
-Calculadora de IMC utilizada para verificar se alguém está ou não com o peso ideal. Ela aponta se o peso está adequado ou se está abaixo ou acima do peso.
+<p align="center"> 
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EnzoXavier1001/calculadora-imc" />
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EnzoXavier1001/calculadora-imc">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EnzoXavier1001/calculadora-imc">
+    <a href="https://github.com/EnzoXavier1001/calculadora-imc/commits/master">
+     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EnzoXavier1001/calculadora-imc">
+    </a>
+</p>
 
----
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
-## 🚀 Tecnologias utilizadas
+## :rocket: Technologies
 
-O projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed at the [B7 Web FullStack](https://b7web.com.br/fullstack/?gclid=Cj0KCQjwgYSTBhDKARIsAB8Kukvwc2VovOQE-qAZoH6s72M5SD9Pjp1wlBLOz6W7AN5Kbufn5nqAJOIaAqxIEALw_wcB) with the following technologies:
 
-- React
-- TypeScript
+-  [ReactJS](https://reactjs.org/)
+-  [TypeScript](https://www.typescriptlang.org/https://www.typescriptlang.org/)
 
----
 
-## 📷 Imagens
+## :information_source: How To Use
 
-<h1 align="center">
-    <img src="src/assets/preview.gif">
-</h1>
-
-## 📁 Como baixar o projeto
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer. From your command line:
 
 ```bash
-
-    # Clonar o repositório
-    $ git clone https://github.com/EnzoXavier1001/calculadora-imc
-
-    # Entrar no diretório
-    $ cd calculadora-imc
-
-    # Baixar dependências
-    $ yarn install
-
-    # Executar o comando
-    $ yarn dev
-
+# Clone this repository
+$ git clone https://github.com/EnzoXavier1001/calculadora-imc
+# Go into the repository
+$ cd calculadora-imc-master
+# Install dependencies
+$ yarn install
+# Run the app 
+$ yarn dev
 ```
